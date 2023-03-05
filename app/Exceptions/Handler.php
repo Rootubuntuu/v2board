@@ -55,7 +55,7 @@ class Handler extends ExceptionHandler
     {
         if ($exception instanceof ViewException) {
             return response([
-                'message' => "主题初始化发生错误，请在后台对主题检查或配置后重试。"
+                'message' => "An error occurred during topic initialization. Please check or configure the topic in the background and try again."
             ]);
         }
         return parent::render($request, $exception);
