@@ -24,7 +24,7 @@ class CheckOrder extends Command
      *
      * @var string
      */
-    protected $description = '订单检查任务';
+    protected $description = 'order check task';
 
     /**
      * Create a new command instance.
